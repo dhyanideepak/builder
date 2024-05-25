@@ -145,7 +145,42 @@
             padding: 9.8px 11.2px;
             /* color: #CACACA; */
         }
+        
+        section#s1{
+            width: 90%;
+            margin: 40px auto;
+        }
+        section#s1>div>h3{
+            color: #7B0FFF;
+            background-color: black;
+            font-size: 18.72px;
+            margin: 0px 0px 18.72px;
+        }
+        section#s1>div>h2{
+            font-size: 40px;
+            background-color: black;
+            color: #EEEEEE;
+        }
+        section#s1>div>h4{
+            font-size: 19.02px;
+            color: #A1A1A1;
+            background-color: black;
+            margin: 9.6px 0px 48px;
+
+        }
+        section>div:nth-of-type(2)>div>div>div>h3{
+            font-size: 15.2px;
+            font-weight: 300;
+            color: #A1A1A1;
+        }
+        section>div:nth-of-type(2)>div:last-child>button.b1{
+            border: 1px solid #A1A1A1;
+        }
+        section>div:nth-of-type(2)>div:last-child>button.b1:hover{
+           border: 2px solid #7326ef;
+        } 
     </style>
+
 </head>
 <body style="background-color: black; font-family: sans-serif;">
     <div class="container">
@@ -223,8 +258,64 @@
                   <h4 style="color: white; text-align: center;">Pierre Lilien</h4>
             </span>
         </div>
+        
     </main>
+    
     </div>
+    <section id="s1">
+        <div style="width: 100%; padding-top: 80px;">
+            
+            <h3>PRICING</h3>
+            <h2 >One Price for Everything
+            </h2>
+            <h4 >The simplest pricing in the industry. You won't need a calculator for this.</h4>
+        
+        </div>
+        <div style="display: grid; grid-template-columns: 1.8fr 1.2fr; ">
+            <div style="padding: 32px; color: white; border: 2px solid #CACACA; border-radius: 5px; ">
+            <h2>Pro</h2>
+            <p>Includes everything you need for your professional website</p>
+            <big style="font-size: 40px;">$20 </big><span style="font-size: 12.5px; ">/ Site / Month (billed annually)</span>
+            <div style="display: flex; justify-content: space-between;">
+                <div>
+                    <h3><i class="fa-solid fa-check" style="color: #7326ef;"></i> Custom Domains</h3>
+                    <h3><i class="fa-solid fa-check" style="color: #7326ef;"></i> GDPR Solution</h3>
+                    <h3><i class="fa-solid fa-check" style="color: #7326ef;"></i> Beautiful Site Design</h3>
+                    <h3><i class="fa-solid fa-check" style="color: #7326ef;"></i> Super-Fast Hosting</h3>
+                    <h3><i class="fa-solid fa-check" style="color: #7326ef;"></i> Analytics</h3>
+                    <h3><i class="fa-solid fa-check" style="color: #7326ef;"></i> Custom Forms</h3>
+                    <h3><i class="fa-solid fa-check" style="color: #7326ef;"></i> Blogging</h3>
+                </div>
+                <div>
+                    <h3 ><i class="fa-solid fa-check" style="color: #7326ef;"></i>  Password Protection</h3>
+                    <h3 ><i class="fa-solid fa-check" style="color: #7326ef;"></i>  Multilingual Sites</h3>
+                    <h3 ><i class="fa-solid fa-check" style="color: #7326ef;"></i>  User Management</h3>
+                    <h3 ><i class="fa-solid fa-check" style="color: #7326ef;"></i>  Unlimited Pages</h3>
+                    <h3 ><i class="fa-solid fa-check" style="color: #7326ef;"></i>  Unlimited Team Members</h3>
+                </div>
+                
+            </div>
+            <div >
+                    <button style="width: 100%; border-radius: 10px; border: none; background-color: #7326ef; color: white; padding: 11.2px 12.8px; font-size: 16px; cursor: pointer;">Get Started </button>
+                </div>
+        </div>
+            <div style="padding: 32px; margin-top: 30px; border: 2px solid #CACACA; border-radius:0px 10px 10px 0px; border-left: none;">
+                <h1 style="color: white;">Basic</h1>
+                <p style="color: #A1A1A1;">Publish your site for free with almost all pro features.</p>
+                <h1 style="color: white; font-size: 40px;">Free</h1>
+                <div style="font-size: 15.8px; color: #A1A1A1;">
+                    <h5>Everything from Pro, except:</h5>
+                    <h5>- No Custom Domains</h5>
+                    <h5>- "Made with Umso" Branding</h5>
+                    <h5>No credit card required</h5>
+                </div>
+                <button class="b1" style=" width: 100%; border-radius: 10px; padding: 11.2px 12.8px; font-size: 16px; background-color: black;color: white; cursor: pointer;">Get Started</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        
+    </footer>
    
 </body>
 </html>
