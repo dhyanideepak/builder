@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            max-width: 1230px;
+            margin: auto;
+            
+        }
+        header{
+            width: 90%;
+            background-color: black;
+            margin: auto;
+        }
+        nav{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          color: white;
+        }
+        nav>div:nth-of-type(2){
+            display: flex;
+            width: 44%;
+            justify-content: space-evenly;
+        }
+        nav>div:nth-of-type(2)>span{
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+        nav>div:nth-of-type(2)>span:hover{
+            text-decoration: underline;
+            
+            
+        }
+
+        nav>div:nth-of-type(2)>button{
+            padding: 10px 12px;
+            background-color: black;
+            color: white;
+            border: 1px solid rgb(58, 58, 58);
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+         nav>div:nth-of-type(2)>button:hover{
+            border: 1px solid rgb(130, 53, 202);
+         }
+         nav>div:nth-of-type(2)>button:nth-of-type(2){
+            display: flex;
+            gap: 3px;
+         }
+    </style>
+</head>
+<body style="background-color: black; font-family: sans-serif;">
+    <div class="container">
+    <header>
+        <nav>
+            <div>
+                 <img src="https://www.umso.com/lib_LUGoPiqXXlDptSWA/csi5g5qmp4uscbth.png" height="30px" width="140px" alt="">
+            </div>
+          <div>
+              <span>Pricing</span><span>Features</span><span>Showcase</span>
+            <button>Login</button><button>Sign Up <span >&rarr;</span> </button>
+          </div>
+          
+        </nav>
+    </header>
+    </div>
+   
+</body>
+</html>
